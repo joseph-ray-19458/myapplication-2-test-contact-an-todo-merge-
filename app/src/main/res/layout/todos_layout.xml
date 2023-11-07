@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp">
+
+    <TextView
+        android:id="@+id/todoTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_margin="8dp"
+        android:layout_weight="1"
+        android:padding="8dp"
+        android:text="TextView" />
+
+    <ImageButton
+        android:id="@+id/taskDeleteBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0"
+        android:onClick="deleteTodo"
+        app:srcCompat="@drawable/baseline_edit_24" />
+
+    <ImageButton
+        android:id="@+id/taskUpdateBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0"
+        android:onClick="deleteTodo"
+        app:srcCompat="@drawable/baseline_delete_24" />
+
+</LinearLayout>
